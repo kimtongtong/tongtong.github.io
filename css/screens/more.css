@@ -1,0 +1,63 @@
+.me {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+.more-underline {
+    border-bottom: none;
+    color: green;
+}
+.chat-box {
+    color: green;
+}
+.more-select-container {
+    width: 100%;
+    padding: 0px 20px 20px 20px;
+    color: green;
+}
+.more-select {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.more-select__column {
+    position: relative;
+}
+.more-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: tomato;
+    position: absolute;
+    top: 0px;
+    right: 20px;
+}
+.suggestions-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.suggestions-box {
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 1px solid green;
+    padding: 20px;
+}
+.suggestions-box__column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: -20px;
+    position: relative;
+    left: -45px;
+}
+.suggestions-box__column img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+.suggestions-box__column p {
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.5);
+ }

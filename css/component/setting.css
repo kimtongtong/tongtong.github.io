@@ -1,0 +1,41 @@
+.setting-header {
+    width: 100%;
+    height: 50px;
+    padding: 20px;
+    background: rgb(44, 173, 44);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.setting-box {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid green;
+}
+.high-position {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.high-position:hover {
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+.high-position__box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+}
+.high-position__box p:last-child {
+    opacity: 0.5;
+}
+.low-setting-box {
+    border-bottom: none;
+    overflow-Y: auto;
+    margin-top: -30px;
+}

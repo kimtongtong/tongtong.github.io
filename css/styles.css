@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600;700&family=MuseoModerno:wght@100;200;300&family=Open+Sans:wght@400;600&family=Oswald&family=Shippori+Antique&display=swap');
+@import "reset.css";
+@import "status-bar/status-bar.css";
+@import "nav-bar.css";
+
+/* screen */
+@import "screens/start-page.css";
+@import "screens/login-form.css";
+@import "screens/friends.css";
+@import "screens/chats.css";
+@import "screens/find.css";
+@import "screens/more.css";
+@import "screens/chat-room.css";
+
+/* component */
+@import "component/pagebar.css";
+@import "component/big-screen.css";
+@import "component/setting.css";
+
+
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Shippori Antique', sans-serif;
+}
