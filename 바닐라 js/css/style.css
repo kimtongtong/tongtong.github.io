@@ -1,3 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; 
+}
+
 .hidden {
     display: none;
+}
+
+#clock, #todo-list, #quote, #weather, #todo-form, #greeting {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#login-form {
+  text-align: center;
+}
+
+#weather { 
+  font-size: 20px;
+}
+
+#quote {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 25px;
+}
+#clock { 
+  font-size: 25px;
 }
